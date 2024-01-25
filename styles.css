@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main {
+    background-color: darkblue;
+
+}
+
+#header {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(248, 92%, 10%);
+
+}
+
+#part2 {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+
+
+#bodysec1 {
+    margin: 4rem;
+    color: white;
+
+}
+
+#p1 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#s1 {
+    color: greenyellow;
+}
+
+#s2 {
+    color: red;
+}
+
+#bodysec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    width: 80%;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.positive {
+    color: greenyellow;
+}
+
+.negative {
+    color: red;
+}
+
+#btn {
+    width: 7rem;
+    height: 3rem;
+    background-color: skyblue;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(248, 92%, 10%);
+}
+
+#section2 {
+    color: white;
+}
+
+#text-area {
+    margin: 2rem;
+
+}
+
+h2 {
+    margin: 1.5rem;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.img1 {
+    padding: 1.2rem;
+}
+
+#body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+
+#p1s2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#s2p3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: hsl(248, 92%, 10%);
+    padding: 4rem;
+}
+
+#f1 {
+    width: 40%;
+}
+
+#footer-line {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
